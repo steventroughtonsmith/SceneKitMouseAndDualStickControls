@@ -1,0 +1,11 @@
+SceneKitMouseAndDualStickControls
+=============
+
+
+[![](https://lh3.googleusercontent.com/-0evNiRcBBjA/UNsVo6N4fZI/AAAAAAAAA_8/84nSG5f6EaI/s640/Screen%2520Shot%25202012-12-26%2520at%252015.19.23.png)](https://lh3.googleusercontent.com/-0evNiRcBBjA/UNsVo6N4fZI/AAAAAAAAA_8/84nSG5f6EaI/s640/Screen%2520Shot%25202012-12-26%2520at%252015.19.23.png)
+
+
+WHAT IS THIS?
+=============
+
+I put this together so that there's an easy place for someone to find first-person-shooter-style mouse-look and Halo-style dual-stick controls to use with SceneKit, Apple's new 3D framework for apps and games. Works with an Xbox 360 Controller using the driver from http://tattiebogle.net/ (that's all I test with). Uses code borrowed from the awesome work Tom Irving did for SceneKraft @ https://github.com/thermogl/SceneKraft/tree/master/SceneKraft.

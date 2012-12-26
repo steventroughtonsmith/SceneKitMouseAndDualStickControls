@@ -13,6 +13,17 @@
 		B020AF73168B43F9008C5149 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B020AF71168B43F9008C5149 /* Credits.rtf */; };
 		B020AF76168B43F9008C5149 /* MDSCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B020AF75168B43F9008C5149 /* MDSCAppDelegate.m */; };
 		B020AF79168B43FA008C5149 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B020AF77168B43FA008C5149 /* MainMenu.xib */; };
+		B020AF87168B4418008C5149 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = B020AF84168B4418008C5149 /* Entity.m */; };
+		B020AF88168B4418008C5149 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = B020AF86168B4418008C5149 /* Player.m */; };
+		B020AF8C168B4430008C5149 /* MDSCGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = B020AF8B168B4430008C5149 /* MDSCGameView.m */; };
+		B020AF9C168B45BF008C5149 /* libddhid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B020AF8E168B45BF008C5149 /* libddhid.a */; };
+		B020AF9E168B4600008C5149 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B020AF9D168B4600008C5149 /* IOKit.framework */; };
+		B020AFA0168B460A008C5149 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B020AF9F168B460A008C5149 /* QuartzCore.framework */; };
+		B020AFA2168B4610008C5149 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B020AFA1168B4610008C5149 /* SceneKit.framework */; };
+		B020AFA7168B46A9008C5149 /* earth-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = B020AFA3168B46A9008C5149 /* earth-normal.png */; };
+		B020AFA8168B46A9008C5149 /* earth-diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B020AFA4168B46A9008C5149 /* earth-diffuse.jpg */; };
+		B020AFA9168B46A9008C5149 /* earth-reflective.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B020AFA5168B46A9008C5149 /* earth-reflective.jpg */; };
+		B020AFAA168B46A9008C5149 /* earth-specular.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B020AFA6168B46A9008C5149 /* earth-specular.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +40,32 @@
 		B020AF74168B43F9008C5149 /* MDSCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSCAppDelegate.h; sourceTree = "<group>"; };
 		B020AF75168B43F9008C5149 /* MDSCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSCAppDelegate.m; sourceTree = "<group>"; };
 		B020AF78168B43FA008C5149 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B020AF83168B4418008C5149 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		B020AF84168B4418008C5149 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
+		B020AF85168B4418008C5149 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		B020AF86168B4418008C5149 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		B020AF8A168B4430008C5149 /* MDSCGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSCGameView.h; sourceTree = "<group>"; };
+		B020AF8B168B4430008C5149 /* MDSCGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSCGameView.m; sourceTree = "<group>"; };
+		B020AF8E168B45BF008C5149 /* libddhid.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libddhid.a; sourceTree = SOURCE_ROOT; };
+		B020AF90168B45BF008C5149 /* DDHidAppleRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidAppleRemote.h; sourceTree = "<group>"; };
+		B020AF91168B45BF008C5149 /* DDHidDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidDevice.h; sourceTree = "<group>"; };
+		B020AF92168B45BF008C5149 /* DDHidElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidElement.h; sourceTree = "<group>"; };
+		B020AF93168B45BF008C5149 /* DDHidEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidEvent.h; sourceTree = "<group>"; };
+		B020AF94168B45BF008C5149 /* DDHidJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidJoystick.h; sourceTree = "<group>"; };
+		B020AF95168B45BF008C5149 /* DDHidKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidKeyboard.h; sourceTree = "<group>"; };
+		B020AF96168B45BF008C5149 /* DDHidKeyboardBarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidKeyboardBarcodeScanner.h; sourceTree = "<group>"; };
+		B020AF97168B45BF008C5149 /* DDHidLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidLib.h; sourceTree = "<group>"; };
+		B020AF98168B45BF008C5149 /* DDHidMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidMouse.h; sourceTree = "<group>"; };
+		B020AF99168B45BF008C5149 /* DDHidQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidQueue.h; sourceTree = "<group>"; };
+		B020AF9A168B45BF008C5149 /* DDHidUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidUsage.h; sourceTree = "<group>"; };
+		B020AF9B168B45BF008C5149 /* DDHidUsageTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidUsageTables.h; sourceTree = "<group>"; };
+		B020AF9D168B4600008C5149 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		B020AF9F168B460A008C5149 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B020AFA1168B4610008C5149 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		B020AFA3168B46A9008C5149 /* earth-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "earth-normal.png"; sourceTree = "<group>"; };
+		B020AFA4168B46A9008C5149 /* earth-diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "earth-diffuse.jpg"; sourceTree = "<group>"; };
+		B020AFA5168B46A9008C5149 /* earth-reflective.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "earth-reflective.jpg"; sourceTree = "<group>"; };
+		B020AFA6168B46A9008C5149 /* earth-specular.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "earth-specular.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +73,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B020AFA2168B4610008C5149 /* SceneKit.framework in Frameworks */,
+				B020AFA0168B460A008C5149 /* QuartzCore.framework in Frameworks */,
+				B020AF9E168B4600008C5149 /* IOKit.framework in Frameworks */,
 				B020AF63168B43F9008C5149 /* Cocoa.framework in Frameworks */,
+				B020AF9C168B45BF008C5149 /* libddhid.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,9 @@
 		B020AF61168B43F9008C5149 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B020AFA1168B4610008C5149 /* SceneKit.framework */,
+				B020AF9F168B460A008C5149 /* QuartzCore.framework */,
+				B020AF9D168B4600008C5149 /* IOKit.framework */,
 				B020AF62168B43F9008C5149 /* Cocoa.framework */,
 				B020AF64168B43F9008C5149 /* Other Frameworks */,
 			);
@@ -82,9 +126,12 @@
 		B020AF68168B43F9008C5149 /* SceneKitMouseAndDualStickControls */ = {
 			isa = PBXGroup;
 			children = (
+				B020AFAC168B4C0B008C5149 /* Gamepad Support */,
+				B020AF8D168B4455008C5149 /* Game Logic */,
 				B020AF74168B43F9008C5149 /* MDSCAppDelegate.h */,
 				B020AF75168B43F9008C5149 /* MDSCAppDelegate.m */,
-				B020AF77168B43FA008C5149 /* MainMenu.xib */,
+				B020AF8A168B4430008C5149 /* MDSCGameView.h */,
+				B020AF8B168B4430008C5149 /* MDSCGameView.m */,
 				B020AF69168B43F9008C5149 /* Supporting Files */,
 			);
 			path = SceneKitMouseAndDualStickControls;
@@ -93,6 +140,8 @@
 		B020AF69168B43F9008C5149 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B020AF77168B43FA008C5149 /* MainMenu.xib */,
+				B020AFAB168B4BFA008C5149 /* Images */,
 				B020AF6A168B43F9008C5149 /* SceneKitMouseAndDualStickControls-Info.plist */,
 				B020AF6B168B43F9008C5149 /* InfoPlist.strings */,
 				B020AF6E168B43F9008C5149 /* main.m */,
@@ -100,6 +149,57 @@
 				B020AF71168B43F9008C5149 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B020AF8D168B4455008C5149 /* Game Logic */ = {
+			isa = PBXGroup;
+			children = (
+				B020AF83168B4418008C5149 /* Entity.h */,
+				B020AF84168B4418008C5149 /* Entity.m */,
+				B020AF85168B4418008C5149 /* Player.h */,
+				B020AF86168B4418008C5149 /* Player.m */,
+			);
+			name = "Game Logic";
+			sourceTree = "<group>";
+		};
+		B020AF8F168B45BF008C5149 /* libddhid */ = {
+			isa = PBXGroup;
+			children = (
+				B020AF90168B45BF008C5149 /* DDHidAppleRemote.h */,
+				B020AF91168B45BF008C5149 /* DDHidDevice.h */,
+				B020AF92168B45BF008C5149 /* DDHidElement.h */,
+				B020AF93168B45BF008C5149 /* DDHidEvent.h */,
+				B020AF94168B45BF008C5149 /* DDHidJoystick.h */,
+				B020AF95168B45BF008C5149 /* DDHidKeyboard.h */,
+				B020AF96168B45BF008C5149 /* DDHidKeyboardBarcodeScanner.h */,
+				B020AF97168B45BF008C5149 /* DDHidLib.h */,
+				B020AF98168B45BF008C5149 /* DDHidMouse.h */,
+				B020AF99168B45BF008C5149 /* DDHidQueue.h */,
+				B020AF9A168B45BF008C5149 /* DDHidUsage.h */,
+				B020AF9B168B45BF008C5149 /* DDHidUsageTables.h */,
+			);
+			name = libddhid;
+			path = libdhid;
+			sourceTree = SOURCE_ROOT;
+		};
+		B020AFAB168B4BFA008C5149 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B020AFA3168B46A9008C5149 /* earth-normal.png */,
+				B020AFA4168B46A9008C5149 /* earth-diffuse.jpg */,
+				B020AFA5168B46A9008C5149 /* earth-reflective.jpg */,
+				B020AFA6168B46A9008C5149 /* earth-specular.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B020AFAC168B4C0B008C5149 /* Gamepad Support */ = {
+			isa = PBXGroup;
+			children = (
+				B020AF8E168B45BF008C5149 /* libddhid.a */,
+				B020AF8F168B45BF008C5149 /* libddhid */,
+			);
+			name = "Gamepad Support";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +257,10 @@
 				B020AF6D168B43F9008C5149 /* InfoPlist.strings in Resources */,
 				B020AF73168B43F9008C5149 /* Credits.rtf in Resources */,
 				B020AF79168B43FA008C5149 /* MainMenu.xib in Resources */,
+				B020AFA7168B46A9008C5149 /* earth-normal.png in Resources */,
+				B020AFA8168B46A9008C5149 /* earth-diffuse.jpg in Resources */,
+				B020AFA9168B46A9008C5149 /* earth-reflective.jpg in Resources */,
+				B020AFAA168B46A9008C5149 /* earth-specular.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +273,9 @@
 			files = (
 				B020AF6F168B43F9008C5149 /* main.m in Sources */,
 				B020AF76168B43F9008C5149 /* MDSCAppDelegate.m in Sources */,
+				B020AF87168B4418008C5149 /* Entity.m in Sources */,
+				B020AF88168B4418008C5149 /* Player.m in Sources */,
+				B020AF8C168B4430008C5149 /* MDSCGameView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +369,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SceneKitMouseAndDualStickControls/SceneKitMouseAndDualStickControls-Prefix.pch";
 				INFOPLIST_FILE = "SceneKitMouseAndDualStickControls/SceneKitMouseAndDualStickControls-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +386,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SceneKitMouseAndDualStickControls/SceneKitMouseAndDualStickControls-Prefix.pch";
 				INFOPLIST_FILE = "SceneKitMouseAndDualStickControls/SceneKitMouseAndDualStickControls-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -298,6 +415,7 @@
 				B020AF7E168B43FA008C5149 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
